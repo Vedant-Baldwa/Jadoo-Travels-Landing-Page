@@ -1,0 +1,170 @@
+.page-fifth {
+    width: 1280px;
+    height: 300px;
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 48px;
+}
+
+.page-five-grid {
+    width: 1280px;
+    height: 300px;
+    grid-template-columns: 0.75fr 1fr;
+    display: grid;
+    flex-wrap: wrap;
+    grid-auto-columns: 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+    grid-template-rows: auto;
+    box-sizing: border-box;
+}
+
+.testimonials-left {
+    width: 541.708px;
+    height: 300px;
+}
+
+.section-title-header {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    transition: opacity 200ms ease;
+    text-align: justify;
+    display: block;
+    width: 541.708px;
+    height: 153px;
+}
+
+.pre-text {
+    width: 541.708px;
+    height: 27px;
+    margin-bottom: 16px;
+    display: block;
+    font-family: Poppins, sans-serif;
+    color: #5e6282;
+    font-size: 1.125rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.section-title {
+    font-family: Volkhov, sans-serif;
+    color: #181e4b;
+    font-size: 3.125rem;
+    margin: 0;
+    line-height: 1.1;
+    font-weight: 700;
+    width: 541.708px;
+    height: 110px;
+}
+
+.testimonials_right {
+    display: block;
+    text-align: left;
+}
+
+.content-mike {
+    display: inline-block;
+    width: 565.6px;
+    height: 207.118px;
+    padding: 35px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(2, 20, 2, 0.2);
+}
+
+.testi-image-cont {
+    display: block;
+    position: absolute;
+    left: 560px;
+    top: 3000px;
+    width: 68px;
+    height: 68px;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.mike-image {
+    max-width: 100%;
+    display: block;
+}
+
+.testi-disc-cont {
+    display: block;
+    width: 562.292px;
+    height: 127.188px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.mike-disc {
+    width: 505.6px;
+    height: 54.396px;
+    margin-bottom: 52px;
+}
+
+.text {
+    font-family: Poppins, sans-serif;
+    color: #5e6282;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.name-mike {
+    width: 562.292px;
+    height: 19.792px;
+    font-family: Poppins, sans-serif;
+    color: #5e6282;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.1;
+
+}
+
+.pak {
+    width: 562.292px;
+    height: 21px;
+    font-family: Poppins, sans-serif;
+    color: #5e6282;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.arrow {
+    display: inline-block;
+    width: 80px;
+    height: 288px;
+    vertical-align: middle;
+    left: auto;
+    top: 4%;
+    right: -6%;
+    bottom: 0%;
+    margin-left: 15px;
+}
+
+.arrow-up {
+    display: block;
+    transition: width 0.15ms ease;
+}
+
+.arrow-down {
+    display: block;
+    width: 20px;
+    height: 198px;
+    top: 34%;
+    right: -6%;
+    object-fit: contain;
+    transition: width 0.15ms ease;
+}
+
+.arrow-up:hover {
+    width: 20px;
+}
+
+.arrow-down:hover {
+    width: 26px;
+}

@@ -1,0 +1,165 @@
+.page-fourth {
+    width: 1280px;
+    height: 511.375px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.h1 {
+    margin: 0px;
+}
+
+.grid-2-col {
+    display: grid;
+    flex-wrap: wrap;
+    grid-auto-columns: 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.book-trip-left {
+    width: 632px;
+    height: 511.375px;
+}
+
+.left-1 {
+    width: 632px;
+    height: 153px;
+    margin-bottom: 32px;
+}
+
+.easy {
+    width: 632px;
+    height: 27px;
+    font-family: Poppins, sans-serif;
+    color: #5e6282;
+    font-size: 1.125rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    display: block;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.easy-steps {
+    font-family: Volkhov, sans-serif;
+    color: #181e4b;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin: 0;
+    box-sizing: border-box;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.left {
+    width: 632px;
+    height: 76.792px;
+    margin-bottom: 32px;
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    transition: box-shadow 0.15ms ease;
+}
+
+.left:hover {
+    box-shadow: 5px 10px 20px -1px rgba(172, 171, 171, 0.546);
+    border-radius: 10px;
+}
+
+.icon-mage {
+    display: inline-block;
+    margin-right: 1.2rem;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.book-trip-description {
+    width: 442.396px;
+    height: 76.792px;
+    max-width: 70%;
+}
+
+.heading-small {
+    width: 442.396px;
+    height: 22.396px;
+    font-family: Poppins, sans-serif;
+    color: #5e6282;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 700;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.para-text {
+    width: 442.396px;
+    height: 54.396px;
+    font-family: Poppins, sans-serif;
+    color: #5e6282;
+    line-height: 1.7;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1rem;
+}
+
+.book-trip-right {
+    width: 632px;
+    width: 511.375px;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+}
+
+.trip-image-rome {
+    width: 263px;
+    height: 130px;
+}
+
+.rome-img {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: -2%;
+    bottom: 18%;
+    z-index: 10;
+    width: 249.665px;
+    height: 113.385px;
+    filter: drop-shadow(0px 11px 8px rgba(160, 162, 160, 0.2));
+    max-width: 100%;
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.trip-image-greece {
+    width: 370px;
+    height: 400px;
+}
+
+.greece-img {
+    position: absolute;
+    left: auto;
+    top: 17%;
+    right: 17%;
+    bottom: auto;
+    width: 23.125rem;
+    height: 25rem;
+    filter: drop-shadow(34px -21px 36px rgba(89, 177, 230, 0.2)) drop-shadow(-6px 8px 12px rgba(211, 211, 211, 0.5));
+    object-fit: cover;
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}

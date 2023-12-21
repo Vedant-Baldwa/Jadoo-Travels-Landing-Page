@@ -1,0 +1,161 @@
+.page-third {
+    display: block;
+    width: 1280px;
+    height: 619px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.top-sell-cont {
+    display: block;
+    width: 1280px;
+    height: 27px;
+    color: #5E6282;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+.top-dest-cont {
+    width: 1280px;
+    height: 55px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+
+.section_title {
+    font-size: 50px;
+    font-family: Volkhov, sans-serif;
+    color: #181E4B;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.1;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.place-cards {
+    /*cards block*/
+    display: block;
+    width: 1280px;
+    height: 473px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.dest-card:hover {
+    box-shadow: 5px 15px 20px 10px rgba(5, 0, 0, 0.06);
+}
+
+.dest-card {
+    /*indi cards*/
+    width: 350px;
+    height: 473px;
+    border: none;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 15px 20px -1px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.15ms ease;
+}
+
+.dest-img-cont {
+    /*img container*/
+    width: 386.667px;
+    height: 360px;
+    display: block;
+}
+
+.dest_img {
+    /*image*/
+    object-fit: cover;
+    width: 100%;
+    height: 22.5rem;
+    object-position: 75% 0%;
+}
+
+.bottom-sec {
+    width: 346.667px;
+    height: 61px;
+    padding-top: 20px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.dest_name_prize {
+    /*firstline container*/
+    display: block;
+    width: 346.667px;
+    height: 27px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-font-smoothins: antialiased;
+    box-sizing: border-box;
+    color: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    line-height: 1.5;
+
+}
+
+.dest-card-name {
+    /*palce name text*/
+    width: 100.281px;
+    height: 27px;
+    font-family: Poppins, sans-serif;
+    color: #5E6282;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.dest-card-prize {
+    /*place prize*/
+    width: 100px;
+    height: 27px;
+    font-family: Poppins, sans-serif;
+    color: #5E6282;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.dest-days {
+    display: block;
+    width: 346.667px;
+    height: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vector {
+    width: 20px;
+    height: 24px;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.dest-num {
+    width: 93.729px;
+    height: 24px;
+    font-family: Poppins, sans-serif;
+    color: #5E6282;
+}

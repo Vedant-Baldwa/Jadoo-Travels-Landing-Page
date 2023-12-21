@@ -1,0 +1,61 @@
+.sponser {
+    width: 1280px;
+    height: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 48px;
+}
+
+.grid-5-col {
+    height: 62px;
+    display: grid;
+    flex-wrap: wrap;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 3px 3px 3px 3px 3px;
+    row-gap: 16px;
+    grid-template-rows: auto;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.spons {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.solo-log {
+    object-fit: cover;
+    height: 1.875rem;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.spons-1 {
+    width: 100px;
+    height: 30px;
+}
+
+.spons-2 {
+    width: 120.688px;
+    height: 30px;
+}
+
+.spons-3 {
+    width: 99.177px;
+    height: 30px;
+}
+
+.spons-5 {
+    width: 104.281px;
+    height: 30px;
+    object-fit: contain;
+}
