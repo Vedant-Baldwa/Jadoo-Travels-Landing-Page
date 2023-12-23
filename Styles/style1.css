@@ -3,6 +3,7 @@ html {
     margin: 0;
     background-size: cover;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -10,8 +11,7 @@ body {
     padding: 0;
     font-size: 1rem;
     line-height: 1.5;
-    width: 1280px;
-    overflow-x: hidden;
+    max-width: 100%;
 }
 
 .page-first {
