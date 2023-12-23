@@ -1,4 +1,4 @@
-![alt text](https://github.com/Vedant-Baldwa-18/Jadoo-Travels-Landing-page/blob/df761b3fcd2a0901123b9bddd73cf8436a2128e3/Images/show.png)
+![alt text](Images/show.png)
 # Jadoo-Travel-Landing-page
 This project is a landing page for Jadoo Travel Agency built using HTML, CSS, Java-script.
 ## Features
